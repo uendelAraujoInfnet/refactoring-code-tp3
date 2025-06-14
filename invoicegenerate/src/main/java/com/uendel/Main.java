@@ -1,7 +1,10 @@
 package com.uendel;
 
+import com.uendel.controller.OrderController;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        OrderController controller = new OrderController();
+        controller.criarPedidoDeTeste();
     }
 }
